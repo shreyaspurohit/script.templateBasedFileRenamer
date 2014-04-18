@@ -22,3 +22,5 @@ Note that I am reusing the holders from the input as necessary. If you need to i
 The script takes input template, output transformation template, delimiter in template to real delimiter mapping, and directory to scan in that order. For the example above, the invocation will be:
 
 	scala renamer.scala #SHOW#DELIM#SEASON#DELIM#SHOWNUM#DELIM#EPISODE#DELIM#EPNUM#DELIM#HYPHEN#DELIM#OTHER #SHOW#DELIM%-#DELIM%S#SHOWNUM%E#EPNUM#DELIM#HYPHEN#DELIM#OTHER #DELIM=" " G:/Shows/Friends/Season01/
+	
+The script was written keeping Plex with files samples I had in mind. Feel free to edit/enhance them.
